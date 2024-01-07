@@ -35,15 +35,15 @@ Navigate to the project directory:
 ```sh
 
 cd Advertisement-Insertion-with-Occlusion-Handling
-Install the required dependencies:
-sh
 
+Install the required dependencies:
+```sh
 pip install -r requirements.txt
-Usage
+### Usage
 Load your video and advertisement image.
 Run the notebook cells to process the video with occlusion handling and advertisement insertion.
 View the processed frames and video output.
-Challenges Faced
+### Challenges Faced
 Real-Time Processing and Display Optimization:
 Achieving a balance between computational efficiency and visual performance for real-time video processing.
 
@@ -59,6 +59,6 @@ Optimizing video output quality while maintaining processing speed.
 Ensuring Code Robustness Across Various Scenarios:
 Ensuring the code's robustness to handle different video formats, sizes, and advertisement images.
 
-Insights Gained
+### Insights Gained
 The iterative development process involved continuous testing, parameter adjustments, and code refinements. The resulting solution is designed to deliver a robust, efficient, and visually appealing advertisement insertion into videos under varying conditions.
 
