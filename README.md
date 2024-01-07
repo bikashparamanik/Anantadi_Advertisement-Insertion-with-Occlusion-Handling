@@ -1,40 +1,63 @@
-# Anantadi_Advertisement-Insertion-with-Occlusion-Handling
-Overview
-This project aims to develop a computer vision solution that seamlessly inserts a specified advertisement image into a given video while gracefully handling occlusions. The implementation involves real-time processing, dynamic occlusion handling, user-friendly interaction for Region of Interest (ROI) selection, and optimization of video output quality.
+# Anantadi_Advertisement-Insertion-with-Occlusion-Handling![Output_img](https://github.com/bikashparamanik/Anantadi_Advertisement-Insertion-with-Occlusion-Handling/assets/118504748/333edc1e-049c-4720-948e-177787be6048)
 
-Requirements
+A computer vision project that focuses on inserting a specified advertisement image into a given video, ensuring graceful handling of occlusions during the insertion process.
 
+Table of Contents
+About
+Features
+Getting Started
+Usage
+Challenges Faced
+Insights Gained
+About
+The project involves the development of a computer vision solution to insert a specified advertisement image into a given video. The challenge lies in gracefully handling occlusions during the insertion process, ensuring a seamless and visually appealing result.
+
+Features
+Occlusion Handling: Effective strategies to handle occlusions in real-time during video processing.
+User Interaction: Intuitive selection of the Region of Interest (ROI) for occlusion handling.
+Real-Time Processing: Optimized algorithms for real-time video processing.
+Versatile Advertisement Insertion: Capable of inserting advertisements into videos with diverse content and occlusion scenarios.
+Getting Started
+Prerequisites
 Python 3.x
 OpenCV
 NumPy
-
+Jupyter Notebook
 Installation
-pip install opencv-python numpy
+Clone the repository:
 
+sh
+Copy code
+git clone https://github.com/your-username/Advertisement-Insertion-with-Occlusion-Handling.git
+Navigate to the project directory:
+
+sh
+Copy code
+cd Advertisement-Insertion-with-Occlusion-Handling
+Install the required dependencies:
+
+sh
+Copy code
+pip install -r requirements.txt
 Usage
-Clone the Repository:
-git clone https://github.com/bikashparamanik/Anantadi_Advertisement-Insertion-with-Occlusion-Handling.git
+Load your video and advertisement image.
+Run the notebook cells to process the video with occlusion handling and advertisement insertion.
+View the processed frames and video output.
+Challenges Faced
+Real-Time Processing and Display Optimization:
+Achieving a balance between computational efficiency and visual performance for real-time video processing.
 
-Navigate to the Project Directory:
-cd Advertisement-Insertion
+Dynamic Occlusion Handling Strategies:
+Creating effective strategies to handle dynamic occlusions, considering varying shapes and sizes of occluded areas.
 
-Run the Code:
-python advertisement_insertion.py
+User Interaction and Intuitive ROI Selection:
+Implementing a user-friendly interface for selecting the Region of Interest during occlusion handling.
 
-Follow On-screen Instructions:
-Select the occlusion region in the sample video.
-Observe real-time insertion of the advertisement.
-Code Structure:
-advertisement_insertion.py: Main script for video processing and advertisement insertion.
-occlusion_handling.py: Module containing occlusion handling strategies.
-utils.py: Utility functions for image manipulation and display.
+Striking a Balance in Video Output Quality:
+Optimizing video output quality while maintaining processing speed.
 
-Occlusion Handling Strategies:
-The occlusion_handling.py module implements dynamic occlusion handling strategies, including:
-Region of Interest (ROI) Extraction: Extracts the specified occlusion region from video frames.
-Advertisement Resizing: Resizes the advertisement image to match the dimensions of the ROI.
-Alpha Blending: Uses alpha blending to seamlessly integrate the advertisement into the video, considering the transparency information.
+Ensuring Code Robustness Across Various Scenarios:
+Ensuring the code's robustness to handle different video formats, sizes, and advertisement images.
 
-Insights and Challenges:
-
-The implementation involves overcoming challenges such as real-time processing optimizations, dynamic occlusion handling, user interaction design, video output quality optimization, and code robustness across various scenarios. Insights gained during the development process contribute to a robust and efficient solution.
+Insights Gained
+The iterative development process involved continuous testing, parameter adjustments, and code refinements. The resulting solution is designed to deliver a robust, efficient, and visually appealing advertisement insertion into videos under varying conditions.
