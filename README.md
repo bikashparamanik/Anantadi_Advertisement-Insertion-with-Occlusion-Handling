@@ -31,14 +31,13 @@ The project involves the development of a computer vision solution to insert a s
 1. Clone the repository:
    ```sh
    git clone https://github.com/bikashparamanik/Anantadi_Advertisement-Insertion-with-Occlusion-Handling.git
+   
 Navigate to the project directory:
-```sh
-
 cd Advertisement-Insertion-with-Occlusion-Handling
 
 Install the required dependencies:
-```sh
 pip install -r requirements.txt
+
 ### Usage
 Load your video and advertisement image.
 Run the notebook cells to process the video with occlusion handling and advertisement insertion.
