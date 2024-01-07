@@ -16,13 +16,13 @@ The project involves the development of a computer vision solution to insert a s
 
 ## Features
 - **Occlusion Handling**: Effective strategies to handle occlusions in real-time during video processing.
-- **User Interaction**: Intuitive selection of the Region of Interest (ROI) for occlusion handling.
+- **User Interaction**: Intuitive Region of Interest (ROI) selection for occlusion handling.
 - **Real-Time Processing**: Optimized algorithms for real-time video processing.
-- **Versatile Advertisement Insertion**: Capable of inserting advertisements into videos with diverse content and occlusion scenarios.
+- **Versatile Advertisement Insertion**: Can insert advertisements into videos with diverse content and occlusion scenarios.
 
 ## Getting Started
 ### Prerequisites
-- Python 3.x
+- Python 3. x
 - OpenCV
 - NumPy
 - Jupyter Notebook
@@ -44,7 +44,7 @@ Run the notebook cells to process the video with occlusion handling and advertis
 View the processed frames and video output.
 ### Challenges Faced
 Real-Time Processing and Display Optimization:
-Achieving a balance between computational efficiency and visual performance for real-time video processing.
+It is achieving a balance between computational efficiency and visual performance for real-time video processing.
 
 Dynamic Occlusion Handling Strategies:
 Creating effective strategies to handle dynamic occlusions, considering varying shapes and sizes of occluded areas.
