@@ -9,21 +9,18 @@ NumPy
 Installation
 
 pip install opencv-python numpy
+
 Usage
 Clone the Repository:
+git clone https://github.com/bikashparamanik/Anantadi_Advertisement-Insertion-with-Occlusion-Handling.git
 
-
-git clone https://github.com/yourusername/Advertisement-Insertion.git
 Navigate to the Project Directory:
-
-
 cd Advertisement-Insertion
+
 Run the Code:
-
-
 python advertisement_insertion.py
-Follow On-screen Instructions:
 
+Follow On-screen Instructions:
 Select the occlusion region in the sample video.
 Observe real-time insertion of the advertisement.
 Code Structure
