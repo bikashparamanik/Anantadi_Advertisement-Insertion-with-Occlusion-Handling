@@ -3,11 +3,12 @@ Overview
 This project aims to develop a computer vision solution that seamlessly inserts a specified advertisement image into a given video while gracefully handling occlusions. The implementation involves real-time processing, dynamic occlusion handling, user-friendly interaction for Region of Interest (ROI) selection, and optimization of video output quality.
 
 Requirements
+
 Python 3.x
 OpenCV
 NumPy
-Installation
 
+Installation
 pip install opencv-python numpy
 
 Usage
