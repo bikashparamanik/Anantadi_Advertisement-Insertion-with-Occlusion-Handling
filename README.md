@@ -2,22 +2,24 @@
 
 A computer vision project that focuses on inserting a specified advertisement image into a given video, ensuring graceful handling of occlusions during the insertion process.
 
-Table of Contents
-About
-Features
-Getting Started
-Usage
-Challenges Faced
-Insights Gained
-About
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Challenges Faced](#challenges-faced)
+- [Insights Gained](#insights-gained)
+- 
+## About
 The project involves the development of a computer vision solution to insert a specified advertisement image into a given video. The challenge lies in gracefully handling occlusions during the insertion process, ensuring a seamless and visually appealing result.
 
-Features
+## Features
 Occlusion Handling: Effective strategies to handle occlusions in real-time during video processing.
 User Interaction: Intuitive selection of the Region of Interest (ROI) for occlusion handling.
 Real-Time Processing: Optimized algorithms for real-time video processing.
 Versatile Advertisement Insertion: Capable of inserting advertisements into videos with diverse content and occlusion scenarios.
-Getting Started
+## Getting Started
 Prerequisites
 Python 3.x
 OpenCV
@@ -26,24 +28,21 @@ Jupyter Notebook
 Installation
 Clone the repository:
 
-sh
-Copy code
+```sh
 git clone https://github.com/your-username/Advertisement-Insertion-with-Occlusion-Handling.git
 Navigate to the project directory:
 
-sh
-Copy code
+```sh
 cd Advertisement-Insertion-with-Occlusion-Handling
 Install the required dependencies:
 
-sh
-Copy code
+```sh
 pip install -r requirements.txt
-Usage
+## Usage
 Load your video and advertisement image.
 Run the notebook cells to process the video with occlusion handling and advertisement insertion.
 View the processed frames and video output.
-Challenges Faced
+## Challenges Faced
 Real-Time Processing and Display Optimization:
 Achieving a balance between computational efficiency and visual performance for real-time video processing.
 
@@ -59,5 +58,5 @@ Optimizing video output quality while maintaining processing speed.
 Ensuring Code Robustness Across Various Scenarios:
 Ensuring the code's robustness to handle different video formats, sizes, and advertisement images.
 
-Insights Gained
+## Insights Gained
 The iterative development process involved continuous testing, parameter adjustments, and code refinements. The resulting solution is designed to deliver a robust, efficient, and visually appealing advertisement insertion into videos under varying conditions.
