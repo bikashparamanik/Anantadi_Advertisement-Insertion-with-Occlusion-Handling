@@ -1,0 +1,12 @@
+
+# Python version
+python>=3.6
+
+# OpenCV for computer vision tasks
+opencv-python>=4.5.1
+
+# NumPy for numerical operations
+numpy>=1.19.5
+
+# Jupyter Notebook for interactive development 
+jupyter>=1.0.0
